@@ -34,8 +34,18 @@ public class Histogram
          }
   }
   
- // public void prettyprint()
- // {
-    
- // }
+  public void prettyPrint()
+  {
+    int val = 2;
+    while(val <= 12)
+    {
+      String starStr = "";
+      for(int i = 0; i<data[val]; i ++)
+      {
+        starStr += "*";
+      }
+      System.out.println(val + ":  " + starStr);
+      val += 1;
+    }
+  }
 }

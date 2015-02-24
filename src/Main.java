@@ -8,7 +8,7 @@ public class Main
     Die d2 = new Die();
     int val = 0;
     
-    while (val < 300000)
+    while (val < 100)
     {
       d1.roll();
       d2.roll();
@@ -16,5 +16,6 @@ public class Main
       val += 1;
     }
     h.print();
+    h.prettyPrint();
   }
 }
